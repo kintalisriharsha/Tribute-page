@@ -1,0 +1,109 @@
+header
+{
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 4px 2px gold;
+}
+body
+{
+    background-color: black;
+}
+.h
+{
+    display: inline-block;
+    padding: 20px;
+}
+a:link
+{
+    color: green;
+}
+a:visited
+{
+    color: pink;
+}
+a:hover 
+{
+    color: brown;
+    border-radius: 5px 5px;
+    border-style: solid;
+    border-color: violet;
+    background-color: violet;
+}
+a:active 
+{
+    color: gold;
+}
+img
+{
+    border-radius: 150px 5px;
+    border-style: solid;
+    border-color: violet;
+    width: 300px;
+    height: 200px;
+}
+.inner
+{   
+    margin: 50px;
+    background-color: lightgrey;
+    padding: 50px;
+    color: rgb(100,21,12);
+    font-style: italic;
+    text-align: justify;
+    border-radius: 40px 40px;
+}
+.h1
+{
+    margin: 50px;
+    padding: 50px;
+    background-color: rgb(40, 4, 75);
+    color: rgb(247, 245, 245);
+    text-align: justify;
+    border-radius: 20px 20px 20px;
+}
+::selection
+{
+    background-color: yellow;
+}
+ul
+{
+    list-style-type: circle;
+}
+table,th,td
+{
+    border: 1px dotted white;
+    border-collapse: collapse;
+}
+table
+{
+    width: 100%;
+    text-align: center;
+    
+}
+.c2
+{
+    padding: 50px;
+    margin: 50px;
+    background-color: cornflowerblue;
+    color: rgb(227, 235, 5);
+    text-align: justify;
+    border-radius: 50px 50px;
+}
+.c4
+{
+     border-radius: 30px 30px;
+     background-color: lightgreen;
+     padding: 50px;
+     margin: 50px;
+     color: indigo;
+     font-family:cursive
+}
+h2
+{
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif
+}
+footer{
+    background-color: darkgrey;
+    position: fixed;
+    
+}
